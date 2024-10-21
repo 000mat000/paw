@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 10px;
+    background-color: darkmagenta;
+}
+header h1{
+    color: white;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+main{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    background-color: magenta;
+}
+.s1{
+    width: 100%;
+    grid-column: 1/3; 
+}
+.s1 img{
+    width: 80px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 4fr;
+}
+.s2{
+    width: 100%;
+    background-color: white;
+}
+table{
+    width: 100%;
+}
+table, th, td, tr{
+    text-align: center;
+    border: greenyellow solid 2px;
+}
+.s3{
+    width: 30%;
+}
+.s3 img{
+    margin: 5px;
+}
+footer{
+    background-color: darkmagenta;
+    padding: 8px;
+}
+footer h5{
+    margin: 0;
+    width: 100%;
+    color: white;
+}
